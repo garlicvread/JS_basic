@@ -19,7 +19,7 @@ With this code, you can receive two numbers 100 200 then store them in "input" a
 
 */
 
-//Code to receive several inputs that divided by a space.
+//Code to receive several inputs that are divided by a space.
 //The output shows the data of the array line by line.
 
 //Example input: 100 200 300
