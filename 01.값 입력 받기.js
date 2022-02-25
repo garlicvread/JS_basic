@@ -8,7 +8,7 @@ To import the readline module, use the following code:
     const readline = require("readline");
 
 
-After import the readline module, you can use the readline.createInterface() method to create a readline interface.
+After importing the readline module, you can use the readline.createInterface() method to create a readline interface.
 This interface object is used to create an input stream and output stream for the readline module.
 You can use the following code to create a readline interface:
 
