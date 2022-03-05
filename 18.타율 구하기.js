@@ -77,7 +77,7 @@ rl.on('line', function(line) {
         if (newHA_str.indexOf("0.") === 0) {
             newHA_str = newHA_str.substring(2);
         }
-        // console.log("new STR" + newHA_str);
+        console.log("new STR: " + newHA_str);
 
         // Round down the newHA_str at the fourth decimal place then print the result.
         if (newHA_str.length >= 4) {
