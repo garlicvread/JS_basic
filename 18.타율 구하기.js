@@ -79,6 +79,7 @@ rl.on('line', function(line) {
         }
         console.log("new STR: " + newHA_str);
 
+        // Add "0" at the end of the string if the length of the string is less than 3.
         while (newHA_str.length < 3) {
             newHA_str = newHA_str + "0";
         }
