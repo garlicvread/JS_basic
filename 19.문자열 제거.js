@@ -35,4 +35,3 @@ rl.on('line', function(line) {
     console.log(line.replace(/[^0-9]/g, ''));
   rl.close();
 });
-
