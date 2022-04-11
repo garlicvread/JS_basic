@@ -5,6 +5,3 @@ for (let i = 2; i <= 9; i++) {
         console.log(i + " x " + j + " = " + i * j);
     }
 }
-
-let str_aa = "sdfsdfsdfsdfsddfsdfsdfsdf";
-
