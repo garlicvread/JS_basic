@@ -48,5 +48,4 @@ console.log(example.map(function(e) {
 */
 
 
-//The code written with the arrow function.
-console.log(example.map(len_list => len_list.length));
+console.log(example.map(e => e.length));
