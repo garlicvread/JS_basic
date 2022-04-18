@@ -1,50 +1,23 @@
 // function name: isRightTriangle
 
-// Input: an array of 3 numbers
+// Input: An array of 3 numbers. The first element will be the longest side.
 // Output: true or false
 
-// Check if the three given numbers can be the sides of a right triangle.
+// Elements to be inputted: inputA, inputB, inputC
+// Output: boolean
 
-
-
-
-
-function isRightTriangle(arr) {
-    let result;
-
-    let a = arr[0];
-    let b = arr[1];
-    let c = arr[2];
-
-    // Check if the three given numbers can form a triangle
-    // if they cannot form a triangle, return false
-    // else, check if they can form a right triangle.
-
-    if (a + b > c && a + c > b && b + c > a) {
-        if (Math.pow(a, 2) === Math.pow(b, 2) + Math.pow(c, 2)) {
-            result = true;
-        } else {
-            console.log("not a right triangle");
-            result = false;
-        }
+function isRightTriangle(inputA, inputB, inputC) {
+    if (inputA**2 === inputB**2 + inputC**2) {
+        console.log(true);
+        return true;
     } else {
-        console.log("not a triangle");
-        result = false;
+        console.log(false);
+        return false;
     }
-    console.log(result);
-    return result;
 }
 
-    // if a^2 = b^2 + c^2, return true. Else, return false.
-    // else if (Math.pow(a, 2) === Math.pow(b, 2) + Math.pow(c, 2)) {
-    //     result = true;
-    // } else {
-    //     result = false;
-    // }
-    // console.log(result);
-    // return result;
-// }
+var inputA = 5;
+var inputB = 3;
+var inputC = 4;
 
-
-arr = [10, 3, 2];
-isRightTriangle(arr);
+isRightTriangle(inputA, inputB, inputC);
